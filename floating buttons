@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <!--material icons-->
+     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+     <!-- font awesome cdn -->
+     <script src="https://kit.fontawesome.com/674acc5e96.js" crossorigin="anonymous"></script>
+     <!-- Compiled and minified CSS -->
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <title>floating buttons</title>
+</head>
+<body class-"grey darken-4">
+    
+<div class="container">
+    <h1 class="amber-text text-lighten-3">floating button</h1>
+    <!--floating buttons-->
+    <button class="btn-floating btn-large waves-effects waves-light red"><i class="material-icons">edit</i></button>
+    <a class="btn-floating btn-large waves-effects waves-light cyan"><i class="material-icons">add</i></a>
+<!--pulse effect-->
+<a class="btn-floating btn-large waves-effects waves-light lime pulse"><i class="material-icons">publish</i></a>
+
+<!--fixed action button-->
+<div class="fixed-action-btn">
+    <a class="btn-floating btn-large red">
+      <i class="large material-icons">airplay</i>
+    </a>
+    <ul>
+      <li>
+          <a class="btn-floating red"><i class="material-icons">insert_chart</i></a></li>
+      <li><a class="btn-floating yellow darken-1"><i class="material-icons">format_quote</i></a></li>
+      <li><a class="btn-floating green"><i class="material-icons">publish</i></a></li>
+      <li><a class="btn-floating blue"><i class="material-icons">attach_file</i></a></li>
+    </ul>
+  </div>
+        <!--end of container-->
+</div>
+
+
+
+    <!--jquery cdn-->
+    <script
+    src="https://code.jquery.com/jquery-3.6.0.min.js"
+    integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+    crossorigin="anonymous"></script>
+  
+      <!-- Compiled and minified JavaScript -->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+<script> 
+  
+  $(document).ready(function() {
+      $('.fixed-action-btn').floatingactionbutton();
+      
+  });
+  </script>
+    </body>
+</html>
