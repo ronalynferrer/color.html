@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+    <title>web-development</title>
+</head>
+<body>
+
+
+
+    <div class="container">
+        <!-- heading-->
+        <h1>typography</h1>
+        <h1>heading one</h1>
+        <h2>headiang two</h2>
+        <h3>heading three</h3>
+        <h4>heading four</h4>
+        <h5>heading five</h5>
+        <h6>heading six</h6>
+
+        <!--paragraph-->
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure vero facere quis laboriosam officiis inventore voluptatibus aspernatur est voluptates! Odio, tempore. Quibusdam deleniti quos dolorum corporis quia est earum debitis.</p>
+        <!--blockquote-->
+        <blockquote>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda, quas!</blockquote>
+
+        <!--flow text-->
+
+        <p class="flowtext">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, dolores!</p>
+        <!--text alignment-->
+        <div>
+            <h5 class="left-align">left aligned text</h5>
+            <h5 class="center-align">left aligned text</h5>
+            <h5 class="right-align">left aligned text</h5>
+        </div>
+        <!--quick floats-->
+        <p class="left">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Unde dolor deserunt odio illo iure natus, rerum quidem ducimus! Eaque tenetur perferendis quae dolorum pariatur inventore et facilis officiis explicabo. Minima.</p>
+        <p class="right">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Unde dolor deserunt odio illo iure natus, rerum quidem ducimus! Eaque tenetur perferendis quae dolorum pariatur inventore et facilis officiis explicabo. Minima.</p>
+    </div>
+
+<div style="heaight"></div>
+
+    <div style="height: 1000px"></div>
+
+
+
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+            
+</body>
+</html>
